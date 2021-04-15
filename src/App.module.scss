@@ -1,0 +1,16 @@
+body {
+  background-color: darkseagreen;
+}
+h1 {
+  background-color: gray;
+  text-align: center;
+}
+
+.card {
+  background-color: gray;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+
+}
