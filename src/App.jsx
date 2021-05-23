@@ -12,8 +12,10 @@ const App = () => {
   return (
     <>
       <h1>Ticket Tracker</h1>
-      <div className={styles.card}>
-        {generateCard}
+      <div className={styles.body}>
+        <div className={styles.card}>
+          {generateCard}
+        </div>
       </div>
     </>
   );
