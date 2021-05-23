@@ -5,7 +5,7 @@ import employees from './data/team';
 import styles from './App.module.scss';
 
 const App = () => {
-  const generateCard = employees.map((employee) =>{
+  const generateCard = employees.map((employee) => {
     return <Card key={employee.id} name={employee.name} role={employee.role} />
   })
 

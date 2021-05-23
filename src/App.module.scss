@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: darkseagreen;
   font-family: monospace;
 }
@@ -13,6 +16,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  padding-left: 9rem;
 
 }
 
